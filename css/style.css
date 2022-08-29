@@ -1,0 +1,396 @@
+body{
+    margin: 0;
+    font-family: 'Alegreya Sans', sans-serif;
+}
+.clear-fix{
+    clear: both;
+}
+.container{
+    width: 90%;
+    margin: auto;
+}
+
+/* Header */
+.header{
+    height: 120vh;
+    background: linear-gradient(to right, rgba(31, 30, 30, 0.527), rgba(15, 15, 15, 0.116)) , url('../images/drew-coffman-1872.jpg') no-repeat center ;
+    background-size: cover;
+    color: #fff;
+}
+
+.nav{
+    padding-top: 20px;
+}
+
+.nav .logo{
+    float: left;
+    width: 180px;
+}
+
+.nav ul{
+    list-style: none;
+    float: right;
+
+}
+
+.nav ul li{
+    float: left;
+}
+
+.nav ul li a{
+    text-decoration: none;
+    padding: 10px 20px;
+    color: #fff;
+    font-weight: normal;
+    font-size: 18px;
+    transition: all .5s;
+}
+
+.nav ul li a:hover{
+    color: #c5a676;
+}
+
+.home{
+    width: 700px;
+    margin: auto;
+    text-align: center;
+    margin-top: 15%;
+}
+
+.home h1{
+    font-family: 'Alegreya';
+    font-size: 80px;
+    font-weight: 400;
+    margin: 0;
+}
+
+.home p{
+    font-size: 24px;
+}
+
+.home button{
+    padding: 20px 30px;
+    color: #fff;
+    font-weight: bolder;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: all .5s;
+}
+
+.home .learn-more{
+    background-color: #8e7754;
+    border: 2px solid #8e7754;
+
+}
+
+.home .learn-more:hover{
+    background-color: #fff;
+    border: 2px solid #fff;
+    color: #303030;
+}
+
+.home .contact-us{
+    background-color: transparent;
+    border: 2px solid #fff;
+    margin-left: 10px;
+}
+
+.home .contact-us:hover{
+    background-color: #fff;
+    border: 2px solid #fff;
+    color: #303030;
+}
+
+
+/* Who we are */
+
+.who-section{
+    margin-top: 50px;
+    color: #686868;
+    padding: 50px 0;
+}
+
+.who-section img{
+    width: 46%;
+    float: left;
+}
+
+.who-text{
+    width: 46%;
+    float: right;
+    padding-left: 40px;
+    font-size: 16px;
+    margin-top: 40px;
+}
+
+.who-text h3{
+    font-size: 32px;
+    font-family: 'Alegreya';
+    color: #303030;
+    font-weight: normal;
+}
+
+.who-text p{
+    line-height: 40px;
+}
+
+.who-text ul{
+    margin-left: -25px;
+}
+
+.who-text li{
+    margin-top: 10px;
+    list-style: none;
+}
+
+.who-text i{
+    text-align: center;
+    font-size: 20px;
+    color: #8e7754;
+    padding: 10px;
+    width: 20px;
+    height: 20px;
+    border: 1px solid #ccc;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+/* Our Location */
+
+.location{
+    margin-top: 50px;
+    color: #686868;
+    background-color: rgb(241, 241, 241);
+    padding: 100px 0;
+}
+
+.location-text{
+    width: 46%;
+    float: left;
+}
+
+.location-img{
+    width: 46%;
+    float: right;
+}
+
+.location-img img{
+    width: 100%;
+}
+
+.location-text h3{
+    font-size: 32px;
+    font-family: 'Alegreya';
+    color: #303030;
+    font-weight: normal;
+}
+
+.location-text p{
+    line-height: 40px;
+}
+
+/* Our Baking */
+
+.baking-section{
+    margin-top: 50px;
+    color: #686868;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.baking-section h3{
+    font-size: 32px;
+    font-family: 'Alegreya';
+    color: #303030;
+    font-weight: normal;
+}
+
+.baking-section p{
+    margin-bottom: 50px;
+}
+
+.baking-item{
+    float: left;
+    width: 32%;
+}
+
+.baking-item img{
+    width: 100%;
+}
+
+.item-center {
+    margin: 0 2%;
+}
+
+.baking-item h4{
+    font-size: 22px;
+    font-weight: normal;
+    font-family: "Alegreya";
+    color: #303030;
+}
+
+/* Contact Information */
+
+.information-section{
+    margin-top: 50px;
+    color: #686868;
+    background-color: rgb(241, 241, 241);
+    padding: 100px 0;
+}
+
+.imformation-text{
+    width: 49%;
+    float: left;
+}
+
+.imformation-text h3{
+    font-size: 32px;
+    font-family: 'Alegreya';
+    color: #303030;
+    font-weight: normal;
+}
+
+.imformation-text p{
+    margin-bottom: 50px;
+    line-height: 40px;
+}
+
+.imformation-text h5 {
+    font-size: 17px;
+    color: #686868;
+    font-weight: normal;
+}
+
+.imformation-text ul{
+    list-style: none;
+    margin-left: -30px;
+}
+.imformation-text ul li{
+    margin-top: 20px;    
+}
+.imformation-text ul li i{
+    color: #fff;
+    font-size: 15px;
+    background-color: #8e7754;
+    padding: 10px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.information-section iframe{
+    width: 49%;
+    float: right;
+}
+
+/* Footer Top */
+
+.footer-top{
+    color: #969696;
+    background-color: rgb(241, 241, 241);
+    padding: 50px 0;
+    background-color: #403d38;
+    
+}
+
+.footer-top h3{
+    color: #fff;
+    font-family: 'Alegreya';
+    font-weight: normal;
+    margin-bottom: 30px;
+}
+
+.f-Why p, .f-opening p, .f-contact p {
+    padding: 15px 0;
+    border-bottom: 1px solid #444;
+    margin-bottom: -10px;
+    width: 90%;
+}
+
+.footer-top i{
+    font-size: 14px;
+    float: left;
+    margin-right: 10px;
+}
+.footer-item{
+    width: 24%;
+    float: left;
+    margin-left: 1%;
+}
+.f-about{
+    width: 24%;
+    float: left;
+    margin-left: 0;
+}
+
+.f-about p{
+    line-height: 40px;
+    width: 90%;
+}
+
+.f-contact i{
+    font-size: 20px;
+}
+
+.f-contact{
+    position: relative;
+}
+.f-contact::before{
+    content: "";
+    background-image: url('../images/contact-details-map.png') ;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 130px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    opacity: 0.2;
+}
+
+/* Footer Bottom */
+
+.footer-bottom{
+    padding: 100px 0;
+    background-color: #353330;
+    text-align: center;
+}
+
+.footer-bottom p{
+    color: #777;
+    font-size: 15px;
+    margin: 25px 0;
+}
+
+.footer-bottom a {
+    text-decoration: none;
+    margin: 5px;
+}
+
+.footer-bottom i{
+    color: rgb(155, 153, 153);
+    padding: 10px;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    background-color: #444;
+    transition: all .5s;
+}
+
+.footer-bottom .facebook i:hover{
+    background-color: #1876f2;
+    color: #fff;
+}
+
+.footer-bottom .google-plus i:hover{
+    background-color: red;
+    color: #fff;
+}
+
+.footer-bottom .linkedin i:hover{
+    background-color: #0a9ff5;
+    color: #fff;
+}
+
+.footer-bottom .twitter i:hover{
+    background-color: #0a9ff5;
+    color: #fff;
+}
